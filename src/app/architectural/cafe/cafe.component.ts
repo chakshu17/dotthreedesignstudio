@@ -13,8 +13,8 @@ export class CafeComponent implements OnInit {
   }
   imageObject=[
     {
-      image: 'assets/Images/architectural/cafe/c1.jpg',
-      thumbImage: 'assets/Images/architectural/cafe/c1.jpg',
+      image: 'assets/Images/architectural/cafe/cc1.jpg',
+      thumbImage: 'assets/Images/architectural/cafe/cc1.jpg',
     },
     {
       image: 'assets/Images/architectural/cafe/c2.jpg',
