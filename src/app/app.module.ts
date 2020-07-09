@@ -8,11 +8,19 @@ import { BungalowComponent } from './architectural/bungalow/bungalow.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { CafeComponent } from './architectural/cafe/cafe.component';
+import { SingleUnitComponent } from './furniture-module/single-unit/single-unit.component';
+import { TvUnitComponent } from './furniture-module/tv-unit/tv-unit.component';
+import { KitchenComponent } from './interior/kitchen/kitchen.component';
+import { ShowroomComponent } from './interior/showroom/showroom.component';
 @NgModule({
   declarations: [
     AppComponent,
     BungalowComponent,
-    CafeComponent
+    CafeComponent,
+    SingleUnitComponent,
+    TvUnitComponent,
+    KitchenComponent,
+    ShowroomComponent
   ],
   imports: [
     BrowserModule,
