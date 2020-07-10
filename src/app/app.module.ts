@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { SingleUnitComponent } from './furniture-module/single-unit/single-unit.
 import { TvUnitComponent } from './furniture-module/tv-unit/tv-unit.component';
 import { KitchenComponent } from './interior/kitchen/kitchen.component';
 import { ShowroomComponent } from './interior/showroom/showroom.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,14 +22,16 @@ import { ShowroomComponent } from './interior/showroom/showroom.component';
     SingleUnitComponent,
     TvUnitComponent,
     KitchenComponent,
-    ShowroomComponent
+    ShowroomComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
