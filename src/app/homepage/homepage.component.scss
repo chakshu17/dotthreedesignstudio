@@ -1,0 +1,131 @@
+.homeimg {
+  width: 80%;
+  height: 550px;
+  opacity: 0.3;
+}
+.mobimg {
+  width: 100%;
+  height: 300px;
+  opacity: 0.3;
+}
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.mobcontainer {
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  line-height: 40px;
+}
+.mobcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  line-height: 20px;
+}
+mat-card {
+  width: 350px;
+  height: fit-content;
+  font-weight: bold;
+}
+.card {
+  width: 350px;
+  height: 350px;
+}
+.bg1 {
+  background-image: url("/assets/Images/home/mian2.jpg");
+  min-height: 400px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("/assets/Images/home/main1.jpg");
+  min-height: 400px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg3 {
+  background-image: url("/assets/Images/architectural/cafe/c1.jpg");
+  min-height: 400px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mobg1 {
+  background-image: url("/assets/Images/home/mian2.jpg");
+  min-height: 200px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobg2 {
+  background-image: url("/assets/Images/home/main1.jpg");
+  min-height: 200px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobg3 {
+  background-image: url("/assets/Images/architectural/cafe/c1.jpg");
+  min-height: 200px;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.person {
+  width: 350px;
+  height: 350px;
+}
+.icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.mobicon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  align-items: center;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+mat-card-content {
+  font-size: 25px;
+}
