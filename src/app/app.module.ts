@@ -16,6 +16,7 @@ import { KitchenComponent } from './interior/kitchen/kitchen.component';
 import { ShowroomComponent } from './interior/showroom/showroom.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     KitchenComponent,
     ShowroomComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
