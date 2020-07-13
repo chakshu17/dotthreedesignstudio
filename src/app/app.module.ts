@@ -4,6 +4,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { KitchenComponent } from './interior/kitchen/kitchen.component';
 import { ShowroomComponent } from './interior/showroom/showroom.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +30,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     ShowroomComponent,
     FooterComponent,
     HomepageComponent,
+    AboutdevelopersComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     NgImageSliderModule,
     MatToolbarModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
