@@ -1,0 +1,36 @@
+mat-card{
+  width: 280px;
+  background-color: rgb(236, 233, 233);
+  height: 400px;
+  animation-name: rigth;
+  animation-duration: 2s;
+}
+mat-form-field{
+  width: 250px;
+  animation-name: left;
+  animation-duration: 3s;
+}
+.logoimg{
+  width: 100%;
+
+}
+@keyframes left {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes rigth {
+  0% {
+    opacity: 0;
+    transform: translateX(+300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

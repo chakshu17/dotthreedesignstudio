@@ -1,10 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +25,9 @@ import { ShowroomComponent } from './interior/showroom/showroom.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +40,8 @@ import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.comp
     FooterComponent,
     HomepageComponent,
     AboutdevelopersComponent,
+    AboutusComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +52,10 @@ import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.comp
     MatToolbarModule,
     MatCardModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
