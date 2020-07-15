@@ -1,7 +1,7 @@
 <div fxLayout="column" fxLayoutAlign="center center" fxHide.lt-md>
   <h1 class="heading"> Cafe</h1><br>
 
-  <div style="width: 80%; height: 800px; ">
+  <div style="width: 80%; height: 60%; ">
     <ng-image-slider
       [images]="imageObject"
       [infinite]="true"
@@ -13,14 +13,14 @@
   </div>
 
   <section>
-    <!-- <app-enquirybutton></app-enquirybutton> -->
+    <app-enquirybutton></app-enquirybutton>
   </section>
 </div>
 
 <!--   Mobile View-->
 <div fxHide.gt-md fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px">
   <h1 class="mobheading">Cafe</h1>
-  <div style="width: 100%; height: 300px; ">
+  <div style="width: 100%; height: 60%; ">
     <ng-image-slider
       [images]="imageObject"
       [infinite]="true"
@@ -32,6 +32,6 @@
   </div>
 
   <section>
-    <!--  <app-enquirybutton></app-enquirybutton> -->
+     <app-enquirybutton></app-enquirybutton>
   </section>
 </div>

@@ -28,6 +28,7 @@ import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.comp
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { from } from 'rxjs';
+import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +43,7 @@ import { from } from 'rxjs';
     AboutdevelopersComponent,
     AboutusComponent,
     ContactusComponent,
+    EnquirybuttonComponent,
   ],
   imports: [
     BrowserModule,
