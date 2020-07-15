@@ -29,6 +29,15 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { from } from 'rxjs';
 import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
+import { ApartmentComponent } from './architectural/apartment/apartment.component';
+import { DiningSetComponent } from './furniture-module/dining-set/dining-set.component';
+import { SofaComponent } from './furniture-module/sofa/sofa.component';
+import { StorageUnitComponent } from './furniture-module/storage-unit/storage-unit.component';
+import { WallHungSofaComponent } from './furniture-module/wall-hung-sofa/wall-hung-sofa.component';
+import { BarComponent } from './interior/bar/bar.component';
+import { BedroomComponent } from './interior/bedroom/bedroom.component';
+import { DeskComponent } from './interior/desk/desk.component';
+import { Desk2Component } from './interior/desk2/desk2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +53,15 @@ import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.co
     AboutusComponent,
     ContactusComponent,
     EnquirybuttonComponent,
+    ApartmentComponent,
+    DiningSetComponent,
+    SofaComponent,
+    StorageUnitComponent,
+    WallHungSofaComponent,
+    BarComponent,
+    BedroomComponent,
+    DeskComponent,
+    Desk2Component,
   ],
   imports: [
     BrowserModule,
