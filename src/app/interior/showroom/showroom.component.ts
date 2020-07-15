@@ -16,6 +16,7 @@ export class ShowroomComponent implements OnInit {
     {
       image: 'assets/Images/interior/showroom/sh1.jpg',
       thumbImage: 'assets/Images/interior/showroom/sh1.jpg',
+      //title:'Showroom'
     },
     {
       image: 'assets/Images/interior/showroom/sh2.jpg',
