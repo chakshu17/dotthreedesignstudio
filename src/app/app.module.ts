@@ -38,6 +38,11 @@ import { BarComponent } from './interior/bar/bar.component';
 import { BedroomComponent } from './interior/bedroom/bedroom.component';
 import { DeskComponent } from './interior/desk/desk.component';
 import { Desk2Component } from './interior/desk2/desk2.component';
+import { ArchitecturalComponent } from './imageslider/architectural/architectural.component';
+import { InteriorComponent } from './imageslider/interior/interior.component';
+import { FurnitureModuleComponent } from './imageslider/furniture-module/furniture-module.component';
+import { OurProjectsComponent } from './our-projects/our-projects.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,6 +67,10 @@ import { Desk2Component } from './interior/desk2/desk2.component';
     BedroomComponent,
     DeskComponent,
     Desk2Component,
+    ArchitecturalComponent,
+    InteriorComponent,
+    FurnitureModuleComponent,
+    OurProjectsComponent,
   ],
   imports: [
     BrowserModule,
