@@ -21,6 +21,7 @@ import { OurProjectsComponent } from './our-projects/our-projects.component';
 
 const routes: Routes = [
   {path: 'home',component: HomepageComponent},
+  {path: '',component: HomepageComponent},
   {path: 'our-projects', component: OurProjectsComponent},
   //architectural
   {path:'cafe',component:CafeComponent},
@@ -37,7 +38,7 @@ const routes: Routes = [
   {path: 'dining-set', component:DiningSetComponent  },
   {path: 'single-unit', component:SingleUnitComponent  },
   {path: 'sofa', component:SofaComponent  },
-  {path: 'wall-hung-sfa', component:WallHungSofaComponent  },
+  {path: 'wall-hung-sofa', component:WallHungSofaComponent  },
   {path: 'tv-unit', component:TvUnitComponent  },
   {path: 'storage-unit', component: StorageUnitComponent  },
 ];

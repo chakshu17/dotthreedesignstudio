@@ -27,7 +27,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { from } from 'rxjs';
 import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
 import { ApartmentComponent } from './architectural/apartment/apartment.component';
 import { DiningSetComponent } from './furniture-module/dining-set/dining-set.component';
