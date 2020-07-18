@@ -18,14 +18,18 @@ import { TvUnitComponent } from './furniture-module/tv-unit/tv-unit.component';
 import { StorageUnitComponent } from './furniture-module/storage-unit/storage-unit.component';
 import { OurProjectsComponent } from './our-projects/our-projects.component';
 import { ArchitecturalComponent } from './imageslider/architectural/architectural.component';
+import { FurnitureModuleComponent } from './imageslider/furniture-module/furniture-module.component';
+import { InteriorComponent } from './imageslider/interior/interior.component';
 
 
 const routes: Routes = [
   {path: 'home',component: HomepageComponent},
   {path: '',component: HomepageComponent},
-
+  //project modules
   {path: 'our-projects', component: OurProjectsComponent},
   {path:'architectural',component:ArchitecturalComponent},
+  {path:'interior',component:InteriorComponent},
+  {path:'furniture-module',component:FurnitureModuleComponent},
   //architectural
   {path:'cafe',component:CafeComponent},
   {path:'bungalow',component:BungalowComponent},

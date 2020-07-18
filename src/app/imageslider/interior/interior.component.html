@@ -4,34 +4,87 @@
     Whatever good things we build,they end up building us.</h2>
   <br />
 
-  <div style="width: 80%; height: 70%; padding-top: 50px;">
-    <ng-image-slider
-      [images]="imageObject"
-      [infinite]="true"
-      [autoSlide]="1"
-      [imageSize]="{ width: '33%', height: '50%' }"
-      [imagePopup]="false"
-      slideImage="1"
-      #nav
-      (click)="submit(nav)"
-    ></ng-image-slider>
+  <div fxLayoutAlign="center center" fxLayoutGap="50px">
+
+    <mat-card>
+      <mat-card-title>Bar </mat-card-title> <br>
+      <a href="/bar"> <img mat-card-image src="assets/Images/interior/bar/bar1.jpg"> </a>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-title>Bedroom</mat-card-title> <br>
+      <a href="/bedroom"> <img mat-card-image src="assets/Images/interior/bedroom/bedroom1.jpg" >
+      </a>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-title>Dining Set</mat-card-title> <br>
+      <a href="/desk"> <img mat-card-image src="assets/Images/interior/desk/d1.jpg" style="width: 100%; padding-left: 5%;"> </a>
+    </mat-card>
   </div>
+
+  <br><br>
+
+  <div fxLayoutAlign="center center" fxLayoutGap="50px">
+
+    <mat-card>
+      <mat-card-title>Wall Hung Sofa</mat-card-title> <br>
+      <a href="/Desk2"> <img mat-card-image src="assets/Images/interior/desk 2/desk1.jpg" style="width: 100%; padding-left: 5%;"> </a>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-title>Kitchen</mat-card-title> <br>
+      <a href="/kitchen"> <img mat-card-image src="assets/Images/interior/kitchen/k1.jpg" style="width: 100%; padding-left: 5%;" > </a>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-title>Showroom</mat-card-title> <br>
+      <a href="/showroom"> <img mat-card-image src="assets/Images/interior/showroom/sh1.jpg" style="width: 105%;"> </a>
+    </mat-card>
+
+  </div>
+  <br>
 </div>
 <div fxLayout="column" fxLayoutAlign="center center" fxHide.gt-sm>
+  <br>
   <h1 class="heading"><b> <u>INTERIOR </u></b></h1>
  <h2 style="text-align: center;">Whatever good things we build,they end up building us.</h2>
   <br />
 
-  <div style="width: 100%; height: 100%;">
-    <ng-image-slider
-      [images]="imageObject"
-      [infinite]="true"
-      [autoSlide]="1"
-      [imageSize]="{ width: '100%', height: '30%' }"
-      [imagePopup]="false"
-      slideImage="1"
-      #nav
-      (click)="submit(nav)"
-    ></ng-image-slider>
+  <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="50px">
+
+    <mat-card class="matmob">
+      <mat-card-title>Bar </mat-card-title> <br>
+      <a href="/bar"> <img mat-card-image src="assets/Images/interior/bar/bar1.jpg"> </a>
+    </mat-card>
+
+    <mat-card class="matmob">
+      <mat-card-title>Bedroom</mat-card-title> <br>
+      <a href="/bedroom"> <img mat-card-image src="assets/Images/interior/bedroom/bedroom1.jpg" >
+      </a>
+    </mat-card>
+
+    <mat-card class="matmob">
+      <mat-card-title>Dining Set</mat-card-title> <br>
+      <a href="/desk"> <img mat-card-image src="assets/Images/interior/desk/d1.jpg" style="width: 100%; padding-left: 5%;"> </a>
+    </mat-card>
+
+
+    <mat-card class="matmob">
+      <mat-card-title>Wall Hung Sofa</mat-card-title> <br>
+      <a href="/Desk2"> <img mat-card-image src="assets/Images/interior/desk 2/desk1.jpg" style="width: 100%; padding-left: 5%;"> </a>
+    </mat-card>
+
+    <mat-card class="matmob">
+      <mat-card-title>Kitchen</mat-card-title> <br>
+      <a href="/kitchen"> <img mat-card-image src="assets/Images/interior/kitchen/k1.jpg" style="width: 100%; padding-left: 5%;" > </a>
+    </mat-card>
+
+    <mat-card class="matmob">
+      <mat-card-title>Showroom</mat-card-title> <br>
+      <a href="/showroom"> <img mat-card-image src="assets/Images/interior/showroom/sh1.jpg" style="width: 110%;"> </a>
+    </mat-card>
+
   </div>
+ <br>
 </div>
