@@ -17,12 +17,15 @@ import { WallHungSofaComponent } from './furniture-module/wall-hung-sofa/wall-hu
 import { TvUnitComponent } from './furniture-module/tv-unit/tv-unit.component';
 import { StorageUnitComponent } from './furniture-module/storage-unit/storage-unit.component';
 import { OurProjectsComponent } from './our-projects/our-projects.component';
+import { ArchitecturalComponent } from './imageslider/architectural/architectural.component';
 
 
 const routes: Routes = [
   {path: 'home',component: HomepageComponent},
   {path: '',component: HomepageComponent},
+
   {path: 'our-projects', component: OurProjectsComponent},
+  {path:'architectural',component:ArchitecturalComponent},
   //architectural
   {path:'cafe',component:CafeComponent},
   {path:'bungalow',component:BungalowComponent},
