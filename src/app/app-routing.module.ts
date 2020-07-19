@@ -24,40 +24,39 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
 
-
 const routes: Routes = [
-  {path: 'home',component: HomepageComponent},
-  {path: 'aboutus',component: AboutusComponent},
-  {path: 'contactus',component: ContactusComponent},
-  {path: 'aboutdeveloper',component: AboutdevelopersComponent},
-  {path: '',component: HomepageComponent},
+  { path: 'home', component: HomepageComponent },
+  { path: 'aboutus', component: AboutusComponent },
+  { path: 'contactus', component: ContactusComponent },
+  { path: 'aboutdeveloper', component: AboutdevelopersComponent },
+  { path: '', component: HomepageComponent },
   //project modules
-  {path: 'our-projects', component: OurProjectsComponent},
-  {path:'architectural',component:ArchitecturalComponent},
-  {path:'interior',component:InteriorComponent},
-  {path:'furniture-module',component:FurnitureModuleComponent},
+  { path: 'our-projects', component: OurProjectsComponent },
+  { path: 'architectural', component: ArchitecturalComponent },
+  { path: 'interior', component: InteriorComponent },
+  { path: 'furniture-module', component: FurnitureModuleComponent },
   //architectural
-  {path:'cafe',component:CafeComponent},
-  {path:'bungalow',component:BungalowComponent},
-  {path:'apartment',component:ApartmentComponent},
+  { path: 'cafe', component: CafeComponent },
+  { path: 'bungalow', component: BungalowComponent },
+  { path: 'apartment', component: ApartmentComponent },
   //Interior
-  {path:'bar',component:BarComponent},
-  {path:'bedroom',component:BedroomComponent},
-  {path:'desk2',component:Desk2Component},
-  {path:'desk',component:DeskComponent},
-  {path:'kitchen',component:KitchenComponent},
-  {path:'showroom',component:ShowroomComponent},
+  { path: 'bar', component: BarComponent },
+  { path: 'bedroom', component: BedroomComponent },
+  { path: 'desk2', component: Desk2Component },
+  { path: 'desk', component: DeskComponent },
+  { path: 'kitchen', component: KitchenComponent },
+  { path: 'showroom', component: ShowroomComponent },
   //Furniture Module
-  {path: 'dining-set', component:DiningSetComponent  },
-  {path: 'single-unit', component:SingleUnitComponent  },
-  {path: 'sofa', component:SofaComponent  },
-  {path: 'wall-hung-sofa', component:WallHungSofaComponent  },
-  {path: 'tv-unit', component:TvUnitComponent  },
-  {path: 'storage-unit', component: StorageUnitComponent  },
+  { path: 'dining-set', component: DiningSetComponent },
+  { path: 'single-unit', component: SingleUnitComponent },
+  { path: 'sofa', component: SofaComponent },
+  { path: 'wall-hung-sofa', component: WallHungSofaComponent },
+  { path: 'tv-unit', component: TvUnitComponent },
+  { path: 'storage-unit', component: StorageUnitComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
