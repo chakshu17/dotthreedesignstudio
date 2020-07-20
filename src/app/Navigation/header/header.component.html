@@ -1,0 +1,16 @@
+<mat-toolbar style="background-color: black;">
+  <div fxHide.gt-md>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>&nbsp;&nbsp;
+  <div><a style="font-size: 40px;" routerLink="/welcome">Dot. Three</a></div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
+    <ul fxLayout class="navigation-items" fxLayoutGap="20px">
+      <li ><a routerLink="/home">Home</a></li>
+      <li ><a routerLink="/about">About</a></li>
+      <li ><a routerLink="/our-projects">Our Projects</a></li>
+      <li ><a routerLink="/contactus">Contact Us</a></li>
+    </ul>
+  </div>
+</mat-toolbar>

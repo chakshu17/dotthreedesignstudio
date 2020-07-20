@@ -2,15 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-
-
-
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -41,6 +40,8 @@ import { ArchitecturalComponent } from './imageslider/architectural/architectura
 import { InteriorComponent } from './imageslider/interior/interior.component';
 import { FurnitureModuleComponent } from './imageslider/furniture-module/furniture-module.component';
 import { OurProjectsComponent } from './our-projects/our-projects.component';
+import { HeaderComponent } from './Navigation/header/header.component';
+import { SidenavListComponent } from './Navigation/sidenav-list/sidenav-list.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,8 @@ import { OurProjectsComponent } from './our-projects/our-projects.component';
     InteriorComponent,
     FurnitureModuleComponent,
     OurProjectsComponent,
+    HeaderComponent,
+    SidenavListComponent,
   ],
   imports: [
     BrowserModule,
@@ -82,10 +85,11 @@ import { OurProjectsComponent } from './our-projects/our-projects.component';
     MatIconModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatInputModule
-
+    MatInputModule,
+    MatSidenavModule,
+    MatListModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

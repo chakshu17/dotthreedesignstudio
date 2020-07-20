@@ -1,8 +1,31 @@
+// mat-card{
+//   width: 23%;
+//   height: 100%;
+//   }
+// .cardmob{
+//   width: 80%;
+//   height: 100%;
+// }
 mat-card{
-  width: 23%;
-  height: 100%;
+  width: 400px;
+  height:400px;
   }
-.cardmob{
-  width: 80%;
-  height: 100%;
+.mobcard{
+  width: 350px;
+  height: 350px;
+}
+#my-img:hover {
+  content: url('/assets/Images/home/icon/plus.png');
+}
+.heading{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+  text-align: center;
+}
+.mobheading{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
 }
