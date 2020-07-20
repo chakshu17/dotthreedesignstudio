@@ -1,84 +1,97 @@
-<div fxLayout fxLayoutAlign="center " >
+<div fxLayout fxLayoutAlign="center " fxHide.lt-md>
   <section>
-    <img class="logoimg" src="assets/Images/logo/logo1.jpg" style=" width: 300px;height: 110px;"/>
+    <img
+      class="logoimg"
+      src="assets\Images\home\contact.jpg"
+      style="width:100%; height:350px;"
+    />
+  </section>
+</div>
+<div fxLayout fxLayoutAlign="center " fxHide.gt-md>
+  <section>
+    <img
+      class="logoimg"
+      src="assets\Images\home\contact.jpg"
+      style="width:100%; height:150px;"
+    />
   </section>
 </div>
 <div fxLayout="column" fxLayoutAlign="center center" style="padding: 30px;">
-<h1
-  fxLayout="column"
-  fxLayoutAlign="center "
-  style="
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    padding: 20px;
-  "
->
-  Contact Us
-</h1>
-<mat-card fxLayout="column" fxLayoutAlign="center center">
-  <mat-card-content>
-    <form fxLayout="column" fxLayoutAlign="center center" >
-      <mat-form-field>
-        <mat-label>Name</mat-label>
-        <input
-          class="input"
-          matInput
-          required
-          type="text"
-          placeholder="Enter the Name"
-          ngModel
-          value=""
-          name="name"
-        />
-      </mat-form-field>
-      <mat-form-field>
-        <mat-label>Email</mat-label>
-        <input
-          class="input"
-          matInput
-          required
-          type="email"
-          placeholder="Enter the email"
-          ngModel
-          value=""
-          name="email"
-        />
-      </mat-form-field>
-      <mat-form-field>
-        <mat-label>Phone Number</mat-label>
-        <input
-          class="input"
-          matInput
-          required
-          type="number"
-          placeholder="Enter the Ph.No"
-          ngModel
-          value=""
-          name="ph"
-        />
-      </mat-form-field>
-      <mat-form-field>
-        <mat-label>Project Query</mat-label>
-        <textarea
-          class="input"
-          matInput
-          required
-          type="text"
-          placeholder="Treatment Needed"
-          ngModel
-          value=""
-          cols="6"
-          rows="6"
-          name="treatment"
-        ></textarea>
-      </mat-form-field>
+  <!-- <h1
+    fxLayout="column"
+    fxLayoutAlign="center "
+    style="
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 40px;
+      padding: 20px;
+    "
+  >
+    Contact Us
+  </h1> -->
+  <mat-card fxLayout="column" fxLayoutAlign="center center">
+    <mat-card-content>
+      <form fxLayout="column" fxLayoutAlign="center center">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input
+            class="input"
+            matInput
+            required
+            type="text"
+            placeholder="Enter the Name"
+            ngModel
+            value=""
+            name="name"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input
+            class="input"
+            matInput
+            required
+            type="email"
+            placeholder="Enter the email"
+            ngModel
+            value=""
+            name="email"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Phone Number</mat-label>
+          <input
+            class="input"
+            matInput
+            required
+            type="number"
+            placeholder="Enter the Ph.No"
+            ngModel
+            value=""
+            name="ph"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Project Query</mat-label>
+          <textarea
+            class="input"
+            matInput
+            required
+            type="text"
+            placeholder="Treatment Needed"
+            ngModel
+            value=""
+            cols="6"
+            rows="6"
+            name="treatment"
+          ></textarea>
+        </mat-form-field>
 
-      <mat-card-actions>
-        <button mat-raised-button color="accent" type="submit"  >
-          Submit
-        </button>
-      </mat-card-actions>
-    </form>
-  </mat-card-content>
-</mat-card>
+        <mat-card-actions>
+          <button mat-raised-button color="accent" type="submit">
+            Submit
+          </button>
+        </mat-card-actions>
+      </form>
+    </mat-card-content>
+  </mat-card>
 </div>
