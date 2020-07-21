@@ -12,5 +12,14 @@ export class SingleUnitComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  imageObject = [
+    {
+      image: 'assets/Images/furniture module/single unit/su1.jpg',
+      thumbImage: 'assets/Images/furniture module/single unit/su1.jpg',
+    },
+    {
+      image: 'assets/Images/furniture module/single unit/su2.jpg',
+      thumbImage: 'assets/Images/furniture module/single unit/su2.jpg',
+    },
+  ];
 }

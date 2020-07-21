@@ -1,16 +1,19 @@
-<mat-toolbar style="background-color: lightgray;">
+<mat-toolbar style="background-color: rgb(236, 236, 236);">
   <div fxHide.gt-md>
-    <button mat-icon-button (click)="onToggleSidenav()">
+    <button mat-icon-button style="color: black;" (click)="onToggleSidenav()">
       <mat-icon>menu</mat-icon>
     </button>
   </div>&nbsp;&nbsp;
-  <div><a style="font-size: 40px;" routerLink="/">Dot. Three</a></div>
+  <div><a style="font-size: 24px;" routerLink="/">Dot. Three Design Studio</a></div>
   <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
     <ul fxLayout class="navigation-items" fxLayoutGap="20px" >
       <li ><a routerLink="/home">Home </a></li>
-      <li ><a routerLink="/aboutus">| &nbsp; About</a></li>
-      <li ><a routerLink="/our-projects">| &nbsp;Our Projects</a></li>
-      <li ><a routerLink="/contactus">|&nbsp; Contact Us</a></li>
+      <li>| </li>
+      <li ><a routerLink="/aboutus"> About</a></li>
+      <li>|</li>
+      <li ><a routerLink="/our-projects"> Our Projects</a></li>
+      <li>|</li>
+      <li ><a routerLink="/contactus"> Contact Us</a></li>
     </ul>
   </div>
 </mat-toolbar>
