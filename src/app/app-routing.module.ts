@@ -22,13 +22,11 @@ import { FurnitureModuleComponent } from './imageslider/furniture-module/furnitu
 import { InteriorComponent } from './imageslider/interior/interior.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
 
 const routes: Routes = [
   { path: 'home', component: HomepageComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'contactus', component: ContactusComponent },
-  { path: 'aboutdeveloper', component: AboutdevelopersComponent },
   { path: '', component: HomepageComponent },
   //project modules
   { path: 'our-projects', component: OurProjectsComponent },

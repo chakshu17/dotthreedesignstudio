@@ -23,7 +23,6 @@ import { KitchenComponent } from './interior/kitchen/kitchen.component';
 import { ShowroomComponent } from './interior/showroom/showroom.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
-import { AboutdevelopersComponent } from './aboutdevelopers/aboutdevelopers.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
@@ -54,7 +53,6 @@ import { SidenavListComponent } from './Navigation/sidenav-list/sidenav-list.com
     ShowroomComponent,
     FooterComponent,
     HomepageComponent,
-    AboutdevelopersComponent,
     AboutusComponent,
     ContactusComponent,
     EnquirybuttonComponent,

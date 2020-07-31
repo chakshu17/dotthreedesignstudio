@@ -21,7 +21,8 @@ mat-card{
   animation-name: example;
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  border-radius: 50%;
+  border-radius: 20%;
+  opacity: 0.5;
   content: url('/assets/Images/home/icon/plus1.png');
 }
 .heading{
