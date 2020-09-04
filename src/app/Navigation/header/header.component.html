@@ -1,19 +1,22 @@
-<mat-toolbar style="background-color:black; height: 55px;">
+<mat-toolbar style="background-color: black; height: 55px">
   <div fxHide.gt-md>
-    <button mat-icon-button style="color: white;" (click)="onToggleSidenav()">
+    <button mat-icon-button style="color: white" (click)="onToggleSidenav()">
       <mat-icon>menu</mat-icon>
     </button>
-  </div>&nbsp;&nbsp;
-  <div><a style="font-size: 22px;" routerLink="/">Dot. Three Design Studio</a></div>
+  </div>
+  &nbsp;&nbsp;
+  <div>
+    <a style="font-size: 22px" routerLink="/">Dot. Three Design Studio</a>
+  </div>
   <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
-    <ul fxLayout class="navigation-items" fxLayoutGap="18px" >
-      <li ><a routerLink="/home">Home </a></li>
-      <li class="lineheader">| </li>
-      <li ><a routerLink="/aboutus"> About</a></li>
-      <li class="lineheader">| </li>
-      <li ><a routerLink="/our-projects"> Our Projects</a></li>
-      <li class="lineheader">| </li>
-      <li ><a routerLink="/contactus"> Contact Us</a></li>
+    <ul fxLayout class="navigation-items" fxLayoutGap="18px">
+      <li><a routerLink="/home">Home </a></li>
+      <li class="lineheader">|</li>
+      <li><a routerLink="/aboutus"> About</a></li>
+      <li class="lineheader">|</li>
+      <li><a routerLink="/our-projects"> Our Projects</a></li>
+      <li class="lineheader">|</li>
+      <li><a routerLink="/contactus"> Contact Us</a></li>
     </ul>
   </div>
 </mat-toolbar>
